@@ -1,5 +1,7 @@
 package rpc.demo;
 
+import rpc.core.annotation.RpcExport;
+
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -7,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  * 
  * @author chenjianhua
  */
+@RpcExport(HelloService.class)
 public class HelloServiceImpl implements HelloService {
 
     public String sayHello(String name) {
