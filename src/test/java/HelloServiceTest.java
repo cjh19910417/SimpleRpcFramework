@@ -3,8 +3,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import rpc.core.RpcProxy;
-import rpc.demo.HelloService;
+import io.nerd.rpc.core.RpcProxy;
+import io.nerd.rpc.demo.HelloService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:applicationContext.xml")
